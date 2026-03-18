@@ -13,22 +13,22 @@ export default async function Home() {
       
       <EventsList events={events} />
 
-      <section id="sobre" className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      <section id="sobre" className="py-16 px-4 sm:px-6 lg:px-8 bg-neutral-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 mb-6 font-[family-name:var(--font-display)] text-center">
             Sobre o Projeto
           </h2>
           <div className="prose prose-lg max-w-none">
-            <p className="text-neutral-700 leading-relaxed mb-4">
+            <p className="text-neutral-600 leading-relaxed mb-4">
               O <strong>Calendário Cultural POA</strong> é uma plataforma criada para conectar os
               amantes de arte às melhores vernissages e exposições de Porto Alegre.
             </p>
-            <p className="text-neutral-700 leading-relaxed mb-4">
+            <p className="text-neutral-600 leading-relaxed mb-4">
               Nossa missão é facilitar o acesso à cultura, reunindo em um só lugar informações
               sobre os eventos artísticos da cidade e permitindo que você adicione facilmente esses
               eventos ao seu calendário pessoal.
             </p>
-            <p className="text-neutral-700 leading-relaxed">
+            <p className="text-neutral-600 leading-relaxed">
               Seja você um artista ou apenas um apreciador de arte, este é o lugar
               para descobrir o que está acontecendo na cena cultural de Porto Alegre.
             </p>

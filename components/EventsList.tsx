@@ -86,7 +86,7 @@ export default function EventsList({ events, isLoading = false }: EventsListProp
             </p>
             <a
               href="#sobre"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--accent)] text-white font-medium rounded-lg hover:bg-[var(--accent-dark)] transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-neutral-200 text-neutral-800 font-medium rounded-lg hover:bg-neutral-300 transition-colors"
             >
               <span>Saiba mais sobre o projeto</span>
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

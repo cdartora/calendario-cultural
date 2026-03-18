@@ -17,8 +17,14 @@
   --neutral-100: #f4f4f5;
   --neutral-200: #e4e4e7;
   --neutral-300: #d4d4d8;
+  --neutral-600: #52525b;
+  --neutral-700: #3f3f46;
   --neutral-800: #27272a;
   --neutral-900: #18181b;
+  
+  --hero-from: #2d3748;
+  --hero-via: #4a5568;
+  --hero-to: #718096;
 }
 
 @theme inline {
@@ -36,8 +42,14 @@
   --color-neutral-100: var(--neutral-100);
   --color-neutral-200: var(--neutral-200);
   --color-neutral-300: var(--neutral-300);
+  --color-neutral-600: var(--neutral-600);
+  --color-neutral-700: var(--neutral-700);
   --color-neutral-800: var(--neutral-800);
   --color-neutral-900: var(--neutral-900);
+  
+  --color-hero-from: var(--hero-from);
+  --color-hero-via: var(--hero-via);
+  --color-hero-to: var(--hero-to);
   
   --font-display: 'Bebas Neue', cursive;
   --font-sans: 'Inter', sans-serif;

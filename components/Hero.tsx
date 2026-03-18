@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-[var(--primary)] via-[var(--secondary)] to-[var(--secondary-light)] text-white overflow-hidden">
+    <section className="relative bg-gradient-to-br from-[var(--hero-from)] via-[var(--hero-via)] to-[var(--hero-to)] text-white overflow-hidden">
       <div className="absolute inset-0 opacity-10">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
           <defs>
@@ -13,7 +13,7 @@ export default function Hero() {
       </div>
 
       <div className="absolute top-10 right-10 w-64 h-64 bg-white opacity-5 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-10 left-10 w-80 h-80 bg-[var(--accent)] opacity-10 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-10 left-10 w-80 h-80 bg-neutral-400 opacity-10 rounded-full blur-3xl"></div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-28">
         <div className="text-center max-w-4xl mx-auto">
@@ -24,9 +24,7 @@ export default function Hero() {
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 font-[family-name:var(--font-display)] tracking-tight leading-tight">
             Agenda
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-yellow-100 to-white">
-              Cultural
-            </span>
+            Cultural
           </h1>
 
           <p className="text-lg sm:text-xl md:text-2xl mb-8 text-white/90 leading-relaxed max-w-2xl mx-auto font-light">
@@ -38,14 +36,17 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
               href="https://calendar.google.com/calendar/u/0/r?cid=https://calendar.google.com/calendar/ical/674378b8b7cc939f1f28ac8f6c68eb9b04bf97f5f5f818cf1cab7ae42ad33ec8@group.calendar.google.com/public/basic.ics"
-              className="px-8 py-4 bg-white text-[var(--primary)] font-semibold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-200 min-h-[44px] flex items-center gap-2"
+              className="px-8 py-4 bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)] text-white font-bold rounded-lg shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-200 min-h-[44px] flex items-center gap-2"
             >
               <span>Adicionar calendário</span>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
             </a>
 
             <a
               href="#sobre"
-              className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-lg border-2 border-white/30 hover:bg-white/20 hover:border-white/50 transition-all duration-200 min-h-[44px] flex items-center"
+              className="px-8 py-4 text-white font-semibold rounded-lg border-2 border-white/20 hover:bg-white/10 hover:border-white/30 transition-all duration-200 min-h-[44px] flex items-center"
             >
               Saiba Mais
             </a>

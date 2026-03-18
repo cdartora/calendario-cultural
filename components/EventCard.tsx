@@ -16,7 +16,7 @@ export default function EventCard({ event }: EventCardProps) {
     <article className="bg-white rounded-xl shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-card-hover)] transition-all duration-300 overflow-hidden flex flex-col h-full transform hover:-translate-y-1">
       <div className="flex gap-4 p-6">
         <div className="flex-shrink-0">
-          <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)] rounded-lg flex flex-col items-center justify-center text-white shadow-md">
+          <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-neutral-700 to-neutral-800 rounded-lg flex flex-col items-center justify-center text-white shadow-md">
             <div className="text-2xl sm:text-3xl font-bold leading-none">{dayOfMonth}</div>
             <div className="text-xs sm:text-sm uppercase tracking-wide mt-1">{month}</div>
           </div>
@@ -73,7 +73,7 @@ export default function EventCard({ event }: EventCardProps) {
             href={event.linkEvento}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-[var(--accent)] hover:text-[var(--accent-dark)] font-medium inline-flex items-center gap-1 transition-colors"
+            className="text-sm text-neutral-600 hover:text-neutral-900 font-medium inline-flex items-center gap-1 transition-colors"
           >
             <span>Mais informações</span>
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
