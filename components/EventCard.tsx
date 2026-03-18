@@ -83,9 +83,9 @@ export default function EventCard({ event }: EventCardProps) {
         </div>
       )}
 
-      <div className="px-6 pb-6 border-t border-neutral-100 pt-4 mt-auto">
+      {/* <div className="px-6 pb-6 border-t border-neutral-100 pt-4 mt-auto">
         <CalendarButton event={event} />
-      </div>
+      </div> */}
     </article>
   );
 }

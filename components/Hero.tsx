@@ -22,10 +22,10 @@ export default function Hero() {
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 font-[family-name:var(--font-display)] tracking-tight leading-tight">
-            Vernissages em
+            Agenda
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-yellow-100 to-white">
-              Porto Alegre
+              Cultural
             </span>
           </h1>
 
@@ -37,13 +37,10 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="#eventos"
+              href="https://calendar.google.com/calendar/u/0/r?cid=https://calendar.google.com/calendar/ical/674378b8b7cc939f1f28ac8f6c68eb9b04bf97f5f5f818cf1cab7ae42ad33ec8@group.calendar.google.com/public/basic.ics"
               className="px-8 py-4 bg-white text-[var(--primary)] font-semibold rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-200 min-h-[44px] flex items-center gap-2"
             >
-              <span>Ver Próximos Eventos</span>
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-              </svg>
+              <span>Adicionar calendário</span>
             </a>
 
             <a
@@ -60,7 +57,7 @@ export default function Hero() {
                 <div className="text-3xl sm:text-4xl font-bold font-[family-name:var(--font-display)]">
                   Cultura
                 </div>
-                <div className="text-sm sm:text-base text-white/80 mt-1">Arte Gaúcha</div>
+                <div className="text-sm sm:text-base text-white/80 mt-1">Centralizada</div>
               </div>
               <div className="hidden sm:block w-px bg-white/20"></div>
               <div>

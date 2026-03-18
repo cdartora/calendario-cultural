@@ -29,7 +29,7 @@ export default async function Home() {
               eventos ao seu calendário pessoal.
             </p>
             <p className="text-neutral-700 leading-relaxed">
-              Seja você um artista, colecionador ou apenas um apreciador de arte, este é o lugar
+              Seja você um artista ou apenas um apreciador de arte, este é o lugar
               para descobrir o que está acontecendo na cena cultural de Porto Alegre.
             </p>
           </div>
