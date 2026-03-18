@@ -77,7 +77,7 @@ export default async function Home() {
 
           <div className="border-t border-neutral-800 mt-8 pt-8 text-center text-neutral-500 text-sm">
             <p>
-              © {new Date().getFullYear()} Calendário Cultural POA. Feito com ❤️ em Porto Alegre.
+              © {new Date().getFullYear()} Calendário Cultural POA.
             </p>
           </div>
         </div>
