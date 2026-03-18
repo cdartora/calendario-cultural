@@ -61,11 +61,11 @@ export default function EventCard({ event }: EventCardProps) {
         </div>
       </div>
 
-      <div className="px-6 pb-4 flex-1">
+      {/* <div className="px-6 pb-4 flex-1">
         <p className="text-sm text-neutral-700 line-clamp-3 leading-relaxed">
           {event.descricao}
         </p>
-      </div>
+      </div> */}
 
       {event.linkEvento && (
         <div className="px-6 pb-4">
